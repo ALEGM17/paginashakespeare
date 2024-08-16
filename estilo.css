@@ -4,8 +4,8 @@ body{
 .cont_tit{
     text-align: center;
     flex-direction: column;
-    padding-left: 31%;
-    padding-right: 30%;
+    padding-left: 36%;
+    padding-right: 36%;
 }
 .titulo{
     font-size: 35px;
@@ -20,7 +20,40 @@ h1{
 .texto_centro{
     text-align: justify;
     background-color: rgb(150, 145, 232);
-    margin-left: 400px;
-    margin-right: 400px;
-    padding: 10px;
+    margin-left: 670px;
+    margin-right: 670px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.texto_centro p{
+    display:block;
+    display:inline-block;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 2;
+}
+.izquierda_a{
+    justify-content: left;
+    background-color:rgba(145,228,232,255);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 10000000;
+    top: 10px;
+    left: 10px;
+    border-radius: 0 0 100px 100px;
+    border: 5px solid;
+    background-image: url(128150-sparkling-heart.svg);
+    background-repeat: repeat-x;
+    background-size: 75px;
+    backgr
+}
+.quotes{
+    padding-top: 2px;
+    padding-left: 25px;
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
 }
